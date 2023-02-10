@@ -21,7 +21,7 @@ const populations: Array<number> = [
 
 const initialValue: number = 0 ;
 
-const sumOfPopulations = populations.reduce((total, population,) => {
+const sumOfPopulations = populations.reduce((total, population,):number => {
     return total + population;
 }, initialValue);
 
