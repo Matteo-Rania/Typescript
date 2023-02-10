@@ -6,9 +6,9 @@ class Currency {
     // Add types for these fields and make them private.
     // Hint: Look at the type of values being passed when `new Currency()`
     // is called below.
-    private name;
-    private code;
-    private symbol;
+    private name: string;
+    private code: string;
+    private symbol: string;
 
     // Add types to the constructor parameters.
 
